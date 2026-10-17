@@ -1,0 +1,108 @@
+h3 {
+    color: blue;
+}
+
+.p1 {
+    color: pink;
+}
+
+#p2 {
+    color: aqua;
+    font-size: 20px;
+}
+
+a:hover {
+    color: yellowgreen;
+}
+
+a:visited {
+    color: darkorange;
+}
+
+a:active {
+    color: deeppink;
+    font-size: 30px;
+}
+
+.k1 {
+    height: 70px;
+    width: 120px;
+    background-image: url('https://4kwallpapers.com/images/walls/thumbs_2t/17013.jpeg');
+    background-size: cover;
+}
+
+.container {
+    height: 100px;
+    width: 100px;
+    background-color: deeppink;
+    /* padding: 50px 50px 50px 50px; */
+}
+
+.kotak {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    margin: 25px;
+}
+
+.text {
+    text-shadow: 4px 2px 1px black;
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    animation: gerak 4s linear infinite;
+    position: relative;
+}
+
+@keyframes putar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes gerak {
+    0% {
+        top: 0px;
+        left: 100px
+    }
+
+    25% {
+        top: 50px;
+        left: 100px
+    }
+
+    50% {
+        top: 100px;
+        left: 100px
+    }
+
+    75% {
+        top: 100px;
+        left: 50px
+    }
+
+    100% {
+        top: 0px;
+        left: 50px
+    }
+}
+
+.wadah {
+    background-color: hotpink;
+    display: grid;
+    gap: 100px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
